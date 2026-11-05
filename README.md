@@ -15,3 +15,7 @@ We will distinguish two implementations throughout:
 The educational model is not a reproduction of NVIDIA's pretrained 4B–64B parameter checkpoints. It implements the essential concepts at a practical scale, with explicit documentation of where it differs.
 
 1. What Cosmos 3 actually consists of
+
+<img width="804" height="451" alt="image" src="https://github.com/user-attachments/assets/061d1ffe-641c-47d5-a2b5-c6f423ca87bc" />
+Reference: NVIDIA NIM for Cosmos WFM (World Foundation Models)
+
