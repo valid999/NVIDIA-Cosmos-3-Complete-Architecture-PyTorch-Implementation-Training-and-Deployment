@@ -13,3 +13,5 @@ We will distinguish two implementations throughout:
 - An educational PyTorch implementation: small enough to inspect, modify, train and debug. This is intended to teach the architecture, attention mechanism, multimodal inputs, diffusion and training objectives.
 - NVIDIA's actual Cosmos 3 implementation: the official model weights, pretrained encoders, inference runtime and post-training tools. This is the path for model fidelity and real research deployments.
 The educational model is not a reproduction of NVIDIA's pretrained 4B–64B parameter checkpoints. It implements the essential concepts at a practical scale, with explicit documentation of where it differs.
+
+1. What Cosmos 3 actually consists of
