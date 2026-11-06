@@ -20,3 +20,10 @@ The educational model is not a reproduction of NVIDIA's pretrained 4B–64B para
 
 Reference: Image from NVIDIA NIM for Cosmos WFM (World Foundation Models).
 
+The fundamental distinction is between two types of computation.
+Component	Purpose	How it learns
+Reasoner (AR)	Understand inputs, reason, produce language	Autoregressive next-token prediction
+Generator (diffusion)	Generate images, video, sound and actions	Iterative noise removal
+Multimodal encoders	Turn different data types into model-compatible representations	Modality-specific representation learning
+Joint attention	Connect relevant information across modalities	Learned attention projections
+Task-specific decoders	Convert model representations into outputs	Language, latent generation and action losses
