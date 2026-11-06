@@ -20,10 +20,23 @@ The educational model is not a reproduction of NVIDIA's pretrained 4B–64B para
 
 Reference: Image from NVIDIA NIM for Cosmos WFM (World Foundation Models).
 
-The fundamental distinction is between two types of computation.
-Component	Purpose	How it learns
-Reasoner (AR)	Understand inputs, reason, produce language	Autoregressive next-token prediction
-Generator (diffusion)	Generate images, video, sound and actions	Iterative noise removal
-Multimodal encoders	Turn different data types into model-compatible representations	Modality-specific representation learning
-Joint attention	Connect relevant information across modalities	Learned attention projections
-Task-specific decoders	Convert model representations into outputs	Language, latent generation and action losses
+cosmos3_learning_project/
+├── pyproject.toml                     # pip-installable package
+├── README.md                          # first-time onboarding
+├── ARCHITECTURE_GUIDE.md             # full architecture and mathematics
+├── CODE_WALKTHROUGH.md               # annotated source walkthrough
+├── PRODUCTION_GUIDE.md               # real checkpoints and deployment
+├── Dockerfile                         # example CPU serving (demo only)
+├── examples/
+│   ├── make_example_data.py          # builds real PNG+WAV+JSON manifest
+│   ├── official_nvidia_reasoner.py   # actual NVIDIA Nano via Transformers
+│   ├── official_nvidia_generator.py  # actual NVIDIA Nano via Diffusers
+│   └── manifest.example.jsonl
+├── src/cosmos3_lab/
+│   ├── config.py, tokenizer.py
+│   ├── encoders.py, positions.py, attention.py, model.py
+│   ├── training.py, synthetic.py, manifest.py, action_geometry.py
+│   ├── train.py, infer.py, sampling.py, inspect.py, evaluate.py, serve.py
+└── tests/
+    ├── test_architecture.py
+    └── test_tokenizer.py
