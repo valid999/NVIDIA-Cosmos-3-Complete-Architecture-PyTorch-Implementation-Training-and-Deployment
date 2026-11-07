@@ -40,3 +40,4 @@ cosmos3_learning_project/
 └── tests/
     ├── test_architecture.py
     └── test_tokenizer.py
+   safs
