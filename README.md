@@ -8,6 +8,8 @@ Primary scientific source: [NVIDIA Cosmos 3 technical report (2026)](https://res
 
 <img width="804" height="451" alt="Screenshot 2026-11-05 225951" src="https://github.com/user-attachments/assets/3eac957a-9fce-40a6-8197-2334c610ebd8" />
 
+<img width="816" height="712" alt="image" src="https://github.com/user-attachments/assets/2fad3cec-83cd-4259-a2ba-5dd2bec00f9a" />
+
 ## Recommended reading order
 
 1. **README.md** — setup and commands.
