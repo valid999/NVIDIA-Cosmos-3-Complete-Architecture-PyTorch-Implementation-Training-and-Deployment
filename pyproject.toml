@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cosmos3-learning-lab"
+version = "0.1.0"
+description = "Small, independently implemented PyTorch learning lab inspired by NVIDIA Cosmos 3"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["torch>=2.2", "numpy>=1.24"]
+
+[project.optional-dependencies]
+test = ["pytest>=7.0"]
+api = ["fastapi>=0.110", "uvicorn>=0.25", "pillow>=10"]
+official = ["transformers>=5.11", "accelerate", "pillow", "av", "safetensors>=0.8"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
