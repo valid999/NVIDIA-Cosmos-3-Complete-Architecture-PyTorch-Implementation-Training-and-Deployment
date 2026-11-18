@@ -17,6 +17,8 @@ Primary scientific source: [NVIDIA Cosmos 3 technical report (2026)](https://res
 
 ## Directory tree
 
+
+
 ```text
 cosmos3_learning_project/
 ├── pyproject.toml                     # pip-installable package
