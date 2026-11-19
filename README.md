@@ -1,6 +1,6 @@
 # Cosmos 3 Learning   Lab — runnable PyTorch teaching implementation
 
-**What this is:** an independently authored, ~0.54M-parameter CPU-runnable model that demonstrates the central **Cosmos 3 architecture concepts** (AR/DM tokens, dual towers, multi-input modality adapters, causal/full asymmetric attention, 3D temporal/spatial RoPE, flow matching, clean/noisy conditioning, multimodal outputs, domain-specific action projections, CFG and Euler sampling).
+**What this is:**  an independently authored, ~0.54M-parameter CPU-runnable model that demonstrates the central **Cosmos 3 architecture concepts** (AR/DM tokens, dual towers, multi-input modality adapters, causal/full asymmetric attention, 3D temporal/spatial RoPE, flow matching, clean/noisy conditioning, multimodal outputs, domain-specific action projections, CFG and Euler sampling).
 
 **What this is NOT:** it is not NVIDIA's official Cosmos 3 model, cannot load NVIDIA weights, is not a pre-trained industrial defect detector, has no physics guarantees, and is NOT suitable for direct robot/PLC control.
 
