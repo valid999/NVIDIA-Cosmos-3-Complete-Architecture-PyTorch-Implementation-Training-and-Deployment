@@ -13,6 +13,8 @@ Primary scientific source:
 
 ## Recommended reading order
 
+
+
 1. **README.md** — setup and commands.
 2. **ARCHITECTURE_GUIDE.md** — paper-to-tensor translation, equations, scenarios and nuances.
 3. **CODE_WALKTHROUGH.md** — function-by-function code review.
