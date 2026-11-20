@@ -27,6 +27,8 @@ Primary scientific source:
 
 
 ```text
+
+
 cosmos3_learning_project/
 ├── pyproject.toml                     # pip-installable package
 ├── README.md                          # first-time onboarding
@@ -47,6 +49,8 @@ cosmos3_learning_project/
 └── tests/
     ├── test_architecture.py
     └── test_tokenizer.py
+
+
 ```
 
 ## Quick start (Windows PowerShell or Linux/macOS)
