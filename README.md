@@ -11,6 +11,7 @@ Primary scientific source:
 
 [NVIDIA Cosmos 3 technical report (2026)](https://research.nvidia.com/labs/cosmos-lab/cosmos3/technical-report.pdf). Official product code: [github.com/NVIDIA/cosmos](https://github.com/NVIDIA/cosmos). Official training/inference framework: [NVIDIA/cosmos-framework](https://github.com/NVIDIA/cosmos-framework).
 
+
 ## Recommended reading order
 
 
