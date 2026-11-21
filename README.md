@@ -79,6 +79,7 @@ python -m cosmos3_lab.infer --task reason
 **Linux/macOS:**
 
 ```bash
+
 cd cosmos3_learning_project
 python3 -m venv .venv
 source .venv/bin/activate
@@ -91,6 +92,7 @@ python -m cosmos3_lab.train --stage reasoner --steps 300 --batch-size 4
 python -m cosmos3_lab.train --stage generator --mode all --steps 300 --batch-size 4
 python -m cosmos3_lab.evaluate --stage generator --mode all
 python -m cosmos3_lab.infer --task joint --steps 20 --out artifacts/joint.pt
+
 ```
 
 The 150/300-step counts are **illustrative**, not convergence claims or reliable performance settings. Shorter smoke tests: replace each `--steps` with `1`.
